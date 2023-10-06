@@ -8,4 +8,13 @@ const peopleChoiceData = [
         favSeries: 'Mr. Robot',
         favSeriesID: '62560-mr-robot'
     },
+    {
+        username: 'tanishqj-19',
+        favAnime: 'Jujutsu Kaisen',
+        favAnimeID: '95479',
+        favMovie: 'Fight Club',
+        favMovieID: '50-fight-club',
+        favSeries: 'Breaking Bad',
+        favSeriesID: '1396-breaking-bad'
+    },
 ]
