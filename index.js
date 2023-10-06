@@ -1,73 +1,51 @@
-const animeMap = new Map();
-const movieMap = new Map();
-const seriesMap = new Map();
-
-favAnimeID = '';
-favAnimeName = '';
-favAnimeCount = 0;
-
-favMovieID = '';
-favMovieName = '';
-favMovieCount = 0;
-
-favSeriesID = '';
-favSeriesName = '';
-favSeriesCount = 0;
+const animeData = [];
+const movieData = [];
+const seriesData = [];
 
 peopleChoiceData.forEach(data => {
     // anime
-    if (animeMap.has(data.favAnimeID))
-        animeMap.set(data.favAnimeID, animeMap.get(data.favAnimeID) + 1);
-    else
-        animeMap.set(data.favAnimeID, 1);
-
-    if (animeMap.get(data.favAnimeID) > favAnimeCount) {
-        favAnimeID = data.favAnimeID;
-        favAnimeName = data.favAnime;
-        favAnimeCount = animeMap.get(data.favAnimeID);
+    if (!animeData.find(item => item.id === data.favAnimeID)) {
+        animeData.push({id: data.favAnimeID, name: data.favAnime, count: 1});
+    } else {
+        animeData.find(item => item.id === data.favAnimeID).count++;
     }
 
-    console.log(data.favMovieID)
     // movie
-    if (movieMap.has(data.favMovieID))
-        movieMap.set(data.favMovieID, movieMap.get(data.favMovieID) + 1)
-    else
-        movieMap.set(data.favMovieID, 1)
-
-    if (movieMap.get(data.favMovieID) > favMovieCount) {
-        favMovieID = data.favMovieID;
-        favMovieName = data.favMovie;
-        favMovieCount = movieMap.get(data.favMovieID);
+    if (!movieData.find(item => item.id === data.favMovieID)) {
+        movieData.push({id: data.favMovieID, name: data.favMovie, count: 1});
+    } else {
+        movieData.find(item => item.id === data.favMovieID).count++;
     }
 
     // series
-    if (seriesMap.has(data.favSeriesID))
-        seriesMap.set(data.favSeriesID, seriesMap.get(data.favSeriesID) + 1)
-    else
-        seriesMap.set(data.favSeriesID, 1)
-
-    if (seriesMap.get(data.favSeriesID) > favSeriesCount) {
-        favSeriesID = data.favSeriesID;
-        favSeriesName = data.favSeries;
-        favSeriesCount = seriesMap.get(data.favSeriesID);
+    if (!seriesData.find(item => item.id === data.favSeriesID)) {
+        seriesData.push({id: data.favSeriesID, name: data.favSeries, count: 1});
+    } else {
+        seriesData.find(item => item.id === data.favSeriesID).count++;
     }
 });
 
+// Sort arrays by count
+animeData.sort((a, b) => b.count - a.count);
+movieData.sort((a, b) => b.count - a.count);
+seriesData.sort((a, b) => b.count - a.count);
 
-// setting total votes
-document.getElementById('total-votes').innerHTML = 'Total votes: ' + peopleChoiceData.length
+// Populate tables
+function populateTable(tableId, data, linkPrefix) {
+    const table = document.getElementById(tableId);
+    data.forEach(item => {
+        const row = table.insertRow();
+        const nameCell = row.insertCell(0);
+        const countCell = row.insertCell(1);
+        const linkCell = row.insertCell(2);
+        
+        nameCell.textContent = item.name;
+        countCell.textContent = item.count;
+        linkCell.innerHTML = `<a href="${linkPrefix}${item.id}/" class="tmdb-link" target="_blank">LINK <i class="fa fa-external-link"></i></a>`;
 
-// setting anime data
-document.getElementById('anime-name').innerHTML = favAnimeName
-document.getElementById('anime-vote-count').innerHTML = favAnimeCount
-document.getElementById('anime-link').href = `https://www.themoviedb.org/tv/${favAnimeID}/`
+    });
+}
 
-// setting movie data
-document.getElementById('movie-name').innerHTML = favMovieName
-document.getElementById('movie-vote-count').innerHTML = favMovieCount
-document.getElementById('movie-link').href = `https://www.themoviedb.org/movie/${favMovieID}/`
-
-// setting series data
-document.getElementById('series-name').innerHTML = favSeriesName
-document.getElementById('series-vote-count').innerHTML = favSeriesCount
-document.getElementById('series-link').href = `https://www.themoviedb.org/tv/${favSeriesID}/`
+populateTable('anime-table', animeData, 'https://www.themoviedb.org/tv/');
+populateTable('movie-table', movieData, 'https://www.themoviedb.org/movie/');
+populateTable('series-table', seriesData, 'https://www.themoviedb.org/tv/');

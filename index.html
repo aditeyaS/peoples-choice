@@ -12,47 +12,55 @@
 <body>
     <h1 id="title">People's Choice</h1>
     <h3 id="total-votes"></h3>
+
     <div id="main-layout">
-        <h3 class="award-title">Best Anime</h3>
-        <div class="card">
-            <h3 id="anime-name"></h3>
-            <div class="details">
-                <div class="likes">
-                    <i class="fa fa-heart" style="color: red;"></i>
-                    <p id="anime-vote-count"></p>
-                </div>
-                <a id="anime-link" class="tmdb-link" target="_blank">
-                    <i class="fa fa-external-link" style="color: white;"></i>
-                </a>
-            </div>
+        <!-- anime -->
+        <div class="category-container">
+            <h3 class="award-title">Best Anime</h3>
+            <table id="anime-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Votes</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
         </div>
-        <h3 class="award-title">Best Movie</h3>
-        <div class="card">
-            <h3 id="movie-name"></h3>
-            <div class="details">
-                <div class="likes">
-                    <i class="fa fa-heart" style="color: red;"></i>
-                    <p id="movie-vote-count"></p>
-                </div>
-                <a id="movie-link" class="tmdb-link" target="_blank">
-                    <i class="fa fa-external-link" style="color: white;"></i>
-                </a>
-            </div>
+        <!-- Movie -->
+        <div class="category-container">
+            <h3 class="award-title" align="center">Best Movie</h3>
+            <table id="movie-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Votes</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
         </div>
-        <h3 class="award-title">Best Series</h3>
-        <div class="card">
-            <h3 id="series-name"></h3>
-            <div class="details">
-                <div class="likes">
-                    <i class="fa fa-heart" style="color: red;"></i>
-                    <p id="series-vote-count"></p>
-                </div>
-                <a id="series-link" class="tmdb-link" target="_blank">
-                    <i class="fa fa-external-link" style="color: white;"></i>
-                </a>
-            </div>
+        <!-- Series -->
+        <div class="category-container">
+            <h3 class="award-title" align="center">Best Series</h3>
+            <table id="series-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Votes</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
         </div>
     </div>
+    
     <script type="text/javascript" src="data.js"></script>
     <script type="text/javascript" src="index.js"></script>
 </body> 
