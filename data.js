@@ -34,5 +34,14 @@ const peopleChoiceData = [
         favMovieID: '335984-blade-runner-2049',
         favSeries: 'peaky Blinders',
         favSeriesID: '60574-peaky-blinders'
+    },
+    {
+        username: 'sejal-bansal',
+        favAnime: 'SPY x FAMILY',
+        favAnimeID: '120089',
+        favMovie: 'Black Panther',
+        favMovieID: '284054-black-panther',
+        favSeries: 'Big Bang Theory',
+        favSeriesID: '1418-the-big-bang-theory'
     }
 ]
