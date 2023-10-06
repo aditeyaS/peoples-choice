@@ -1,5 +1,14 @@
 const peopleChoiceData = [
     {
+	username: 'AirOne01',
+	favAnime: 'Sword Art Online',
+	favAnimeID: '45782',
+	favMovie: 'Interstellar',
+	favMovieID: '157336',
+	favSeries: 'Mr. Robot',
+	favSeriesID: '62560'
+    },
+    {
         username: 'aditeyaS',
         favAnime: 'One Piece',
         favAnimeID: '37854',
