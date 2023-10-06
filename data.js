@@ -13,7 +13,7 @@ const peopleChoiceData = [
         favAnime: 'Jujutsu Kaisen',
         favAnimeID: '95479',
         favMovie: 'Fight Club',
-        favMovieID: '50-fight-club',
+        favMovieID: '550-fight-club',
         favSeries: 'Breaking Bad',
         favSeriesID: '1396-breaking-bad'
     },
