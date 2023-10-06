@@ -31,7 +31,7 @@ This repo collects data about favorite anime, movies, and TV series.
 4. Goto **contributors.md** and similarly add your name and socials as previously added.
 5. (Optional) Improve the UI of the page
 6. Add and commit your changes
-7. Raise a pull request
+7. Add the correct labels and raise a pull request
 8. See the live preview [here](https://aditeyas.github.io/peoples-choice/)
 8. (Optional) Star the repo
 
