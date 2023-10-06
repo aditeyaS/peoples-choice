@@ -25,5 +25,14 @@ const peopleChoiceData = [
         favMovieID: '105-back-to-the-future',
         favSeries: 'Breaking Bad',
         favSeriesID: '1396-breaking-bad'
+    },
+    {
+        username: 'sumant7',
+        favAnime: 'Attack on Titan',
+        favAnimeID: '1429',
+        favMovie: 'Blade Runner 2049',
+        favMovieID: '335984-blade-runner-2049',
+        favSeries: 'peaky Blinders',
+        favSeriesID: '60574-peaky-blinders'
     }
 ]
