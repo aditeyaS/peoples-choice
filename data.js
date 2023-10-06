@@ -17,4 +17,13 @@ const peopleChoiceData = [
         favSeries: 'Breaking Bad',
         favSeriesID: '1396-breaking-bad'
     },
+    {
+        username: 'icepick4',
+        favAnime: 'One Piece',
+        favAnimeID: '37854',
+        favMovie: 'Back to the Future',
+        favMovieID: '105-back-to-the-future',
+        favSeries: 'Breaking Bad',
+        favSeriesID: '1396-breaking-bad'
+    }
 ]
