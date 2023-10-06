@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="assets/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>People Choice</title> 
+</head> 
+<body>
+    <h1 id="title">People's Choice</h1>
+    <h3 id="total-votes"></h3>
+    <div id="main-layout">
+        <h3 class="award-title">Best Anime</h3>
+        <div class="card">
+            <h3 id="anime-name"></h3>
+            <div class="details">
+                <div class="likes">
+                    <i class="fa fa-heart" style="color: red;"></i>
+                    <p id="anime-vote-count"></p>
+                </div>
+                <a id="anime-link" class="tmdb-link" target="_blank">
+                    <i class="fa fa-external-link" style="color: white;"></i>
+                </a>
+            </div>
+        </div>
+        <h3 class="award-title">Best Movie</h3>
+        <div class="card">
+            <h3 id="movie-name"></h3>
+            <div class="details">
+                <div class="likes">
+                    <i class="fa fa-heart" style="color: red;"></i>
+                    <p id="movie-vote-count"></p>
+                </div>
+                <a id="movie-link" class="tmdb-link" target="_blank">
+                    <i class="fa fa-external-link" style="color: white;"></i>
+                </a>
+            </div>
+        </div>
+        <h3 class="award-title">Best Series</h3>
+        <div class="card">
+            <h3 id="series-name"></h3>
+            <div class="details">
+                <div class="likes">
+                    <i class="fa fa-heart" style="color: red;"></i>
+                    <p id="series-vote-count"></p>
+                </div>
+                <a id="series-link" class="tmdb-link" target="_blank">
+                    <i class="fa fa-external-link" style="color: white;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body> 
+</html>

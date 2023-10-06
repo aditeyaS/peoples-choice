@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+    text-align: center;
+}
+
+#title {
+    color: black;
+    font-size: 30px;
+}
+
+#total-votes {
+    margin-top: 10px;
+    color: red;
+}
+
+#main-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.award-title {
+    color: #4600f1;
+}
+
+.card {
+    width: 50%;
+    background: linear-gradient(150deg, #39ef74, #4600f1 100%);
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.card>h3 {
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 100;
+}
+
+.likes {
+    display:flex;
+    float: left;
+}
+.likes>p {
+    margin-left: 5px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.tmdb-link {
+    float: right;
+}
