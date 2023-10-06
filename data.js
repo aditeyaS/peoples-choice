@@ -32,7 +32,7 @@ const peopleChoiceData = [
         favAnimeID: '1429',
         favMovie: 'Blade Runner 2049',
         favMovieID: '335984-blade-runner-2049',
-        favSeries: 'peaky Blinders',
+        favSeries: 'Peaky Blinders',
         favSeriesID: '60574-peaky-blinders'
     },
     {
