@@ -45,6 +45,15 @@ const peopleChoiceData = [
         favSeriesID: '1418-the-big-bang-theory'
     },
     {
+        username: 'GettingWeirdKnowledge',
+        favAnime: 'Gintama',
+        favAnimeID: '57041-gin-tama',
+        favMovie: 'The Shawshank redemption',
+        favMovieID: '278-the-shawshank-redemption',
+        favSeries: 'The big bang theory',
+        favSeriesID: '1418-the-big-bang-theory'
+    },
+    {
         username: 'Maheshwar-S',
         favAnime: 'Kaiji',
         favAnimeID: '42951',
