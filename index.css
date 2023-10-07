@@ -1,13 +1,15 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     padding: 20px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ecf0f1;
+    background-color:black;
+    
 }
 
 #title {
@@ -29,7 +31,15 @@ body {
     flex-wrap: wrap;
     gap: 20px; 
     margin-top: 30px;
+   /* adding background color */
+    background-color:hsla(209, 100%, 85%, 0.664);
+     /* background-color: rgb(122, 121, 121); */
+    /* updating borders */
+    border-radius: 10px;
+    
+   
 }
+
 
 .award-title {
     color: #34495e;
@@ -52,11 +62,12 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
     display: flex;
     flex-direction: column;
+    
 }
 
 .card:hover {
     transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -84,7 +95,7 @@ body {
     color: red;
     font-size: 24px;
     margin-right: 5px;
-    animation: pulse 1s infinite;
+    animation: pulse 350ms infinite ease-in-out;
 }
 
 @keyframes pulse {
@@ -98,6 +109,8 @@ body {
         transform: scale(1);
     }
 }
+
+
 
 .likes > p {
     font-size: 18px;
@@ -123,7 +136,11 @@ body {
     margin: 20px auto;
     border-collapse: collapse;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    /* updating ease-in-out */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+    padding: 20px;
+  
+   
 }
 
 .category-container {
@@ -132,11 +149,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* adding margin-bottom  */
+    margin-bottom: 30px;
+    /* updating font */
+    font-weight: bold;
+    color: #34495e;
+    
+    
+   
 }
 
 table:hover {
     transform: scale(1.02);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    background-color:hsla(187, 59%, 89%, 0.664);
+   
 }
 
 table thead th {
@@ -189,3 +216,48 @@ table tbody td a:hover {
 .tmdb-link:hover, table tbody td a:hover {
     background-color: #34495e;
 }
+
+/* css for header animation */
+.ml11 {
+    font-weight: 700;
+    font-size: 3.5em;
+    color: #34495e;
+  }
+  
+  .ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+  }
+  
+  .ml11 .line1 { 
+    top: 0; 
+    left: 0;
+  }
+  
+  .ml11 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  /* media queries */
+  @media only screen and (max-width:600px) {
+     .main-layout{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+  }
