@@ -43,5 +43,14 @@ const peopleChoiceData = [
         favMovieID: '284054-black-panther',
         favSeries: 'Big Bang Theory',
         favSeriesID: '1418-the-big-bang-theory'
+    },
+    {
+        username: 'Maheshwar-S',
+        favAnime: 'Kaiji',
+        favAnimeID: '42951',
+        favMovie: 'Coco',
+        favMovieID: '354912-coco',
+        favSeries: 'Breaking Bad',
+        favSeriesID: '1396-breaking-bad',
     }
 ]
