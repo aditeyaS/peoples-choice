@@ -80,7 +80,6 @@ const peopleChoiceData = [
     favSeries: "Breaking Bad",
     favSeriesID: "1396-breaking-bad",
   },
-
   {
     username: "abrehan2",
     favAnime: "Naruto Shippūden",
