@@ -10,7 +10,18 @@ body {
     background-color: #ecf0f1;
 }
 
+.logo{
+    display: inline-block;
+}
+.img{
+    float: right;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+}
 #title {
+    position: relative;
     color: #34495e; 
     font-size: 48px; 
     margin-bottom: 20px; 
