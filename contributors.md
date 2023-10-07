@@ -18,3 +18,5 @@ Guilherme Orcezi [Github](https://github.com/guilhermeorcezi) | [LinkedIn](https
 </br>
 Abdul Rehan [Github](https://github.com/abrehan2) | [LinkedIn](https://www.linkedin.com/in/abrehan/)
 </br>
+Sharanya Chakraborty [Github](https://github.com/destryptor) | [LinkedIn](https://www.linkedin.com/in/sharanya-chakraborty/)
+</br>

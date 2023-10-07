@@ -89,4 +89,13 @@ const peopleChoiceData = [
     favSeries: "Dark",
     favSeriesID: "70523-dark",
   },
+  {
+    username: "destryptor",
+    favAnime: "Violet Evergarden",
+    favAnimeID: "75214-violet-evergarden",
+    favMovie: "Oppenheimer",
+    favMovieID: "872585-oppenheimer",
+    favSeries: "Lucifer",
+    favSeriesID: "63174-lucifer",
+  },
 ];
