@@ -73,9 +73,9 @@ const peopleChoiceData = [
   },
   {
     username: "guilhermeorcezi",
-    favAnime: "Sangatsu no Lion",
+    favAnime: "March Comes in Like a Lion",
     favAnimeID: "65336",
-    favMovie: "Liz to Aoi Tori",
+    favMovie: "Liz and the Blue Bird",
     favMovieID: "482150",
     favSeries: "Breaking Bad",
     favSeriesID: "1396-breaking-bad",
@@ -85,8 +85,8 @@ const peopleChoiceData = [
     favAnime: "Naruto Shippūden",
     favAnimeID: "31910",
     favMovie: "Ready Player One",
-    favMovieID: "333339",
+    favMovieID: "333339-ready-player-one",
     favSeries: "Dark",
-    favSeriesID: "70523",
+    favSeriesID: "70523-dark",
   },
 ];
