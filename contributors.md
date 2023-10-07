@@ -14,3 +14,5 @@ Dhruv puri [Github](https://github.com/GettingWeirdKnowledge)
 </br>
 S Maheshwar [Github](https://github.com/Maheshwar-S) | [LinkedIn](https://www.linkedin.com/in/maheshwar-s-025539278/)
 </br>
+Guilherme Orcezi [Github](https://github.com/guilhermeorcezi) | [LinkedIn](https://www.linkedin.com/in/guilhermeorcezi/)
+</br>

@@ -71,5 +71,14 @@ const peopleChoiceData = [
         favMovieID: '354912-coco',
         favSeries: 'Breaking Bad',
         favSeriesID: '1396-breaking-bad',
+    },
+    {
+        username: 'guilhermeorcezi',
+        favAnime: 'Sangatsu no Lion',
+        favAnimeID: '65336',
+        favMovie: 'Liz to Aoi Tori',
+        favMovieID: '482150',
+        favSeries: 'Breaking Bad',
+        favSeriesID: '1396-breaking-bad',
     }
 ]
