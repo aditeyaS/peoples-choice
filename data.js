@@ -43,5 +43,14 @@ const peopleChoiceData = [
         favMovieID: '284054-black-panther',
         favSeries: 'Big Bang Theory',
         favSeriesID: '1418-the-big-bang-theory'
+    },
+    {
+        username: 'amek',
+        favAnime: 'Vinland Saga',
+        favAnimeID: '88803',
+        favMovie: 'Black Panther',
+        favMovieID: '284054-black-panther',
+        favSeries: 'The Good Doctor',
+        favSeriesID: '71712-the-good-doctor'
     }
 ]
