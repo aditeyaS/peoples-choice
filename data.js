@@ -45,6 +45,7 @@ const peopleChoiceData = [
         favSeriesID: '1418-the-big-bang-theory'
     },
     {
+
         username: 'arjunpndt',
         favAnime: 'One Piece',
         favAnimeID: '37854',
@@ -52,5 +53,23 @@ const peopleChoiceData = [
         favMovieID: '10494-perfect-blue',
         favSeries: 'peaky blinders',
         favSeriesID: '60574-peaky-blinders'
+    },
+    {
+        username: 'GettingWeirdKnowledge',
+        favAnime: 'Gintama',
+        favAnimeID: '57041-gin-tama',
+        favMovie: 'The Shawshank redemption',
+        favMovieID: '278-the-shawshank-redemption',
+        favSeries: 'The big bang theory',
+        favSeriesID: '1418-the-big-bang-theory'
+    },
+    {
+        username: 'Maheshwar-S',
+        favAnime: 'Kaiji',
+        favAnimeID: '42951',
+        favMovie: 'Coco',
+        favMovieID: '354912-coco',
+        favSeries: 'Breaking Bad',
+        favSeriesID: '1396-breaking-bad',
     }
 ]
