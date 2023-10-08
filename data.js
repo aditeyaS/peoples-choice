@@ -125,4 +125,13 @@ const peopleChoiceData = [
     favSeries: "Person of Interest",
     favSeriesID: "1411-person-of-interest",
   },
+  {
+      username: 'pankaj-2503',
+        favAnime: 'Demon Slayer:Kimetsu no Yaiba',
+        favAnimeID: '85937',
+        favMovie: 'The Maze Runner',
+        favMovieID: '198663-the-maze-runner',
+        favSeries: 'Money Heist',
+        favSeriesID: '71446-la-casa-de-papel',
+  },
 ];
