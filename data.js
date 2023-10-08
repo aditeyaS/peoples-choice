@@ -80,5 +80,15 @@ const peopleChoiceData = [
         favMovieID: '482150',
         favSeries: 'Breaking Bad',
         favSeriesID: '1396-breaking-bad',
+    },
+    {
+        username: 'pankaj-2503',
+        favAnime: 'Demon Slayer:Kimetsu no Yaiba',
+        favAnimeID: '85937',
+        favMovie: 'The Maze Runner',
+        favMovieID: '198663-the-maze-runner',
+        favSeries: 'Money Heist',
+        favSeriesID: '71446-la-casa-de-papel',
+
     }
 ]
