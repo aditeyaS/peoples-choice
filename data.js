@@ -57,7 +57,7 @@ const peopleChoiceData = [
     username: "GettingWeirdKnowledge",
     favAnime: "Gintama",
     favAnimeID: "57041-gin-tama",
-    favMovie: "The Shawshank redemption",
+    favMovie: "The Shawshank Redemption",
     favMovieID: "278-the-shawshank-redemption",
     favSeries: "The big bang theory",
     favSeriesID: "1418-the-big-bang-theory",
