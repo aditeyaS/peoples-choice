@@ -98,4 +98,13 @@ const peopleChoiceData = [
     favSeries: "Lucifer",
     favSeriesID: "63174-lucifer",
   },
+    {
+    username: "U7K4R5H",
+    favAnime: "Death Note",
+    favAnimeID: "13916-death-note",
+    favMovie: "12 Angry Men",
+    favMovieID: "389-12-angry-men",
+    favSeries: "Breaking Bad",
+    favSeriesID: "1396-breaking-bad",
+  },
 ];
