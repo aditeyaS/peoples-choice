@@ -1,6 +1,6 @@
 # People's Choice
 
-![App Logo](https://github.com/aditeyaS/peoples-choice/blob/main/assets/favicon.png)
+![App Logo](https://github.com/aditeyaS/peoples-choice/blob/main/assets/favicon.ico)
 
 <a href="https://aditeyas.github.io/peoples-choice/" aria-label="See Current Stats"><img src="https://img.shields.io/badge/see_current_stats-green?style=for-the-badge"/>
 </a>
