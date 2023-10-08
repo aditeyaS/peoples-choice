@@ -30,3 +30,5 @@ Muhamad Dian Rahendra [Github](https://github.com/Muanra217) | [LinkedIn](https:
 </br>
 Arjit Kedia [Github](https://github.com/combfreak45) | [Linkedin](https://www.linkedin.com/in/arjit-kedia-06041a236/)
 </br>
+Gaurav Bhaskar [Github](https://github.com/gauravbhaskar080) | [Linkedin](https://www.linkedin.com/in/gaurav-bhaskar-5b1223232/)
+</br>

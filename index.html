@@ -1,75 +1,93 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="assets/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="index.css" />
-    <title>People Choice</title> 
-</head> 
-<body>
+    <title>People Choice</title>
+  </head>
+  <body>
     <h1 class="ml11 title">
-        <span class="text-wrapper">
-          <span class="line line1"></span>
-          <span class="letters">PEOPLES'S CHOICE</span>
-        </span>
-      </h1>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-      
+      <span class="text-wrapper">
+        <span class="line line1"></span>
+        <span class="letters">PEOPLES'S CHOICE</span>
+      </span>
+    </h1>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
     <h3 id="total-votes"></h3>
 
     <div id="main-layout">
-        <!-- anime -->
-        <div class="category-container">
-            <h3 class="award-title">Best Anime</h3>
-            <table id="anime-table">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Votes</th>
-                        <th>Link</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-        <!-- Movie -->
-        <div class="category-container">
-            <h3 class="award-title" align="center">Best Movie</h3>
-            <table id="movie-table">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Votes</th>
-                        <th>Link</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-        <!-- Series -->
-        <div class="category-container">
-            <h3 class="award-title" align="center">Best Series</h3>
-            <table id="series-table">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Votes</th>
-                        <th>Link</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
+      <!-- anime -->
+      <div class="category-container">
+        <h3 class="award-title">Best Anime</h3>
+        <table id="anime-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Votes</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <!-- Movie -->
+      <div class="category-container">
+        <h3 class="award-title" align="center">Best Movie</h3>
+        <table id="movie-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Votes</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <!-- Series -->
+      <div class="category-container">
+        <h3 class="award-title" align="center">Best Series</h3>
+        <table id="series-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Votes</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </div>
-    
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="assets/favicon-3.png" alt="Logo" />
+        </div>
+        <div class="footer-links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <div class="footer-social">
+        <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+      </div>
+      <p>&copy; 2023 Your Company. All Rights Reserved.</p>
+    </footer>
+
     <script type="text/javascript" src="data.js"></script>
     <script type="text/javascript" src="index.js"></script>
-</body> 
+  </body>
 </html>
