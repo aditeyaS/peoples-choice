@@ -26,3 +26,5 @@ Viral Parmar [Github](https://github.com/coder-bat)
 </br>
 Muhamad Dian Rahendra [Github](https://github.com/Muanra217) | [LinkedIn](https://www.linkedin.com/in/muanra217/)
 </br>
+Arjit Kedia [Github](https://github.com/combfreak45) | [Linkedin](https://www.linkedin.com/in/arjit-kedia-06041a236/)
+</br>
