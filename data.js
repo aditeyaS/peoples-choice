@@ -90,6 +90,15 @@ const peopleChoiceData = [
     favSeriesID: "70523-dark",
   },
   {
+    username: "Muanra217",
+    favAnime: "Monogatari",
+    favAnimeID: "46195",
+    favMovie: "Ready Player One",
+    favMovieID: "333339-ready-player-one",
+    favSeries: "The big bang theory",
+    favSeriesID: "1418-the-big-bang-theory",
+  },
+  {
     username: "destryptor",
     favAnime: "Violet Evergarden",
     favAnimeID: "75214-violet-evergarden",
