@@ -20,3 +20,5 @@ Abdul Rehan [Github](https://github.com/abrehan2) | [LinkedIn](https://www.linke
 </br>
 Sharanya Chakraborty [Github](https://github.com/destryptor) | [LinkedIn](https://www.linkedin.com/in/sharanya-chakraborty/)
 </br>
+Utkarsh Singh [Github](https://github.com/U7K4R5H) | [LinkedIn](https://www.linkedin.com/in/u7k4rsh/)
+</br>
