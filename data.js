@@ -180,6 +180,15 @@ const peopleChoiceData = [
     favSeriesID: "84105-mirzapur",
   },
   {
+    username: "divyanshu29jha",
+    favAnime: "Bleach",
+    favAnimeID: "30984-bleach",
+    favMovie: "After Everything",
+    favMovieID: "820525-after-everything",
+    favSeries: "Suits",
+    favSeriesID: "37680-suits",
+  },
+  {
     username: "sandesh-theMayGuy",
     favAnime: "Death Note",
     favAnimeID: "13916-death-note",
