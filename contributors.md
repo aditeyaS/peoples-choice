@@ -40,4 +40,5 @@ Saurabh R [Github](https://github.com/saurabh29r)
 </br>
 Divyanshu Jha [Github](https://github.com/divyanshu29jha) | [Linkedin](https://www.linkedin.com/in/divyanshu-jha-530b42246/)
 </br>
-
+Sandesh Khatiwada [Github](https://github.com/sandesh-theMayGuy) | [Linkedin](https://www.linkedin.com/in/sandesh-khatiwada-531388206/)
+</br>

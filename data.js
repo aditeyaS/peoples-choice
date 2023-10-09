@@ -188,4 +188,13 @@ const peopleChoiceData = [
     favSeries: "Suits",
     favSeriesID: "37680-suits",
   },
+  {
+    username: "sandesh-theMayGuy",
+    favAnime: "Death Note",
+    favAnimeID: "13916-death-note",
+    favMovie: "Shutter Island",
+    favMovieID: "11324-shutter-island",
+    favSeries: "Loki",
+    favSeriesID: "84958-loki",
+  },
 ];
