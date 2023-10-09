@@ -197,4 +197,13 @@ const peopleChoiceData = [
     favSeries: "Loki",
     favSeriesID: "84958-loki",
   },
+  {
+    username: "fahmi-azzuhri",
+    favAnime: "That Time I Got Reincarnated as a Slime",
+    favAnimeID: "82684",
+    favMovie: "Ong-Bak",
+    favMovieID: "9316-ong-bak",
+    favSeries: "Hunter x Hunter",
+    favSeriesID: "46298-hunter-x-hunter",
+  },
 ];
