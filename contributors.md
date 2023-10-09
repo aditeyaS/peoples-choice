@@ -32,3 +32,5 @@ Arjit Kedia [Github](https://github.com/combfreak45) | [Linkedin](https://www.li
 </br>
 Gaurav Bhaskar [Github](https://github.com/gauravbhaskar080) | [Linkedin](https://www.linkedin.com/in/gaurav-bhaskar-5b1223232/)
 </br>
+Rohan Kumar Singh [Github](https://github.com/roxoho) | [Linkedin](https://www.linkedin.com/in/roxoho/)
+</br>
