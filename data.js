@@ -170,4 +170,13 @@ const peopleChoiceData = [
     favSeries: "Friends",
     favSeriesID: "1668-friends",
   },
+  {
+    username: "saurabh29r",
+    favAnime: "Spirited Away",
+    favAnimeID: "1001196",
+    favMovie: "The Internship",
+    favMovieID: "116741-the-internshipe",
+    favSeries: "Mirzapur",
+    favSeriesID: "84105-mirzapur",
+  },
 ];
