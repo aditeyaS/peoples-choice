@@ -38,3 +38,6 @@ Shatantra Maji [Github](https://github.com/x3shat) | [Linkedin](https://www.link
 </br>
 Saurabh R [Github](https://github.com/saurabh29r)
 </br>
+Divyanshu Jha [Github](https://github.com/divyanshu29jha) | [Linkedin](https://www.linkedin.com/in/divyanshu-jha-530b42246/)
+</br>
+
