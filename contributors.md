@@ -16,7 +16,7 @@ S Maheshwar [Github](https://github.com/Maheshwar-S) | [LinkedIn](https://www.li
 </br>
 Guilherme Orcezi [Github](https://github.com/guilhermeorcezi) | [LinkedIn](https://www.linkedin.com/in/guilhermeorcezi/)
 </br>
-Pankaj Singh [Github](https://github.com/pankaj-2503) | [LinkedIn](https://www.linkedin.com/in/pankaj-singh-906790225/) 
+Pankaj Singh [Github](https://github.com/pankaj-2503) | [LinkedIn](https://www.linkedin.com/in/pankaj-singh-906790225/)
 </br>
 Abdul Rehan [Github](https://github.com/abrehan2) | [LinkedIn](https://www.linkedin.com/in/abrehan/)
 </br>
@@ -33,4 +33,6 @@ Arjit Kedia [Github](https://github.com/combfreak45) | [Linkedin](https://www.li
 Gaurav Bhaskar [Github](https://github.com/gauravbhaskar080) | [Linkedin](https://www.linkedin.com/in/gaurav-bhaskar-5b1223232/)
 </br>
 Rohan Kumar Singh [Github](https://github.com/roxoho) | [Linkedin](https://www.linkedin.com/in/roxoho/)
+</br>
+Shatantra Maji [Github](https://github.com/x3shat) | [Linkedin](https://www.linkedin.com/in/shatantra/)
 </br>
