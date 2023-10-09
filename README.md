@@ -2,7 +2,7 @@
 
 ![App Logo](https://github.com/aditeyaS/peoples-choice/blob/main/assets/favicon.ico)
 
-<a href="https://aditeyas.github.io/peoples-choice/" aria-label="See Current Stats"><img src="https://img.shields.io/badge/see_current_stats-green?style=for-the-badge"/>
+<a target="_blank" href="https://aditeyas.github.io/peoples-choice/" aria-label="See Live Preview"><img src="https://img.shields.io/badge/see_live_preview-green?style=for-the-badge"/>
 </a>
 
 This repo collects data about favorite anime, movies, and TV series.
