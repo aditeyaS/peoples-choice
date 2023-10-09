@@ -38,3 +38,5 @@ Shatantra Maji [Github](https://github.com/x3shat) | [Linkedin](https://www.link
 </br>
 Saurabh R [Github](https://github.com/saurabh29r)
 </br>
+Sandesh Khatiwada [Github](https://github.com/sandesh-theMayGuy) | [Linkedin](https://www.linkedin.com/in/sandesh-khatiwada-531388206/)
+
