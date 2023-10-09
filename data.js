@@ -161,4 +161,13 @@ const peopleChoiceData = [
     favSeries: "Loki",
     favSeriesID: "84958-loki",
   },
+  {
+    username: "x3shat",
+    favAnime: "One Piece",
+    favAnimeID: "37854",
+    favMovie: "The Shawshank Redemption",
+    favMovieID: "278-the-shawshank-redemption",
+    favSeries: "Friends",
+    favSeriesID: "1668-friends",
+  },
 ];
