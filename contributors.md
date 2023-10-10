@@ -46,3 +46,5 @@ Fahmi Azzuhri Efki [GitHub](https://github.com/fahmi-azzuhri) | [LinkedIn](https
 <br/>
 BlankAmber [GitHub](https://github.com/BlankAmber)
 <br/>
+Ankush Tripathi [GitHub](https://github.com/ankushtripathii) | [LinkedIn](https://www.linkedin.com/in/ankush-tripathi-547008234/)
+<br/>
