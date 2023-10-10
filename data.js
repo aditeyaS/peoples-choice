@@ -41,7 +41,7 @@ const peopleChoiceData = [
     favAnimeID: "120089",
     favMovie: "Black Panther",
     favMovieID: "284054-black-panther",
-    favSeries: "Big Bang Theory",
+    favSeries: "The Big Bang Theory",
     favSeriesID: "1418-the-big-bang-theory",
   },
   {
@@ -136,7 +136,7 @@ const peopleChoiceData = [
   },
   {
     username: "pankaj-2503",
-    favAnime: "Demon Slayer:Kimetsu no Yaiba",
+    favAnime: "Demon Slayer: Kimetsu no Yaiba",
     favAnimeID: "85937",
     favMovie: "The Maze Runner",
     favMovieID: "198663-the-maze-runner",
