@@ -206,4 +206,13 @@ const peopleChoiceData = [
     favSeries: "Hunter x Hunter",
     favSeriesID: "46298-hunter-x-hunter",
   },
+  {
+    username: "BlankAmber",
+    favAnime: "Grimgar of Fantasy and Ash",
+    favAnimeID: "65369",
+    favMovie: "Toy Story",
+    favMovieID: "862-toy-story",
+    favSeries: "Reset",
+    favSeriesID: "155441",
+  },
 ];
