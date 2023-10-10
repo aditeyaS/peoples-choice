@@ -25,24 +25,30 @@ const seriesData = [];
 
 peopleChoiceData.forEach(data => {
   // anime
-  if (!animeData.find(item => item.id === data.favAnimeID)) {
-    animeData.push({ id: data.favAnimeID, name: data.favAnime, count: 1 });
-  } else {
-    animeData.find(item => item.id === data.favAnimeID).count++;
+  if (data.favAnime != null && data.favAnimeID != null) {
+	if (!animeData.find(item => item.id === data.favAnimeID)) {
+	  animeData.push({ id: data.favAnimeID, name: data.favAnime, count: 1 });
+	} else {
+	  animeData.find(item => item.id === data.favAnimeID).count++;
+	}
   }
 
   // movie
-  if (!movieData.find(item => item.id === data.favMovieID)) {
-    movieData.push({ id: data.favMovieID, name: data.favMovie, count: 1 });
-  } else {
-    movieData.find(item => item.id === data.favMovieID).count++;
+  if (data.favMovie != null && data.favMovieID != null) {
+	if (!movieData.find(item => item.id === data.favMovieID)) {
+	  movieData.push({ id: data.favMovieID, name: data.favMovie, count: 1 });
+	} else {
+	  movieData.find(item => item.id === data.favMovieID).count++;
+	}
   }
 
   // series
-  if (!seriesData.find(item => item.id === data.favSeriesID)) {
-    seriesData.push({ id: data.favSeriesID, name: data.favSeries, count: 1 });
-  } else {
-    seriesData.find(item => item.id === data.favSeriesID).count++;
+  if (data.favSeries != null && data.favSeriesID != null) {
+	if (!seriesData.find(item => item.id === data.favSeriesID)) {
+	  seriesData.push({ id: data.favSeriesID, name: data.favSeries, count: 1 });
+	} else {
+	  seriesData.find(item => item.id === data.favSeriesID).count++;
+	}
   }
 });
 

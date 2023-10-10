@@ -203,7 +203,7 @@ const peopleChoiceData = [
     favAnimeID: "82684",
     favMovie: "Ong-Bak",
     favMovieID: "9316-ong-bak",
-    favSeries: "Hunter x Hunter",
-    favSeriesID: "46298-hunter-x-hunter",
+    favSeries: null,
+    favSeriesID: null,
   },
 ];
