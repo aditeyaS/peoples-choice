@@ -215,4 +215,13 @@ const peopleChoiceData = [
     favSeries: "Reset",
     favSeriesID: "155441",
   },
+  {
+    username: "ankushtripathii",
+    favAnime: "Vinland Saga",
+    favAnimeID: "88803",
+    favMovie: "The Martian",
+    favMovieID: "286217-the-martian",
+    favSeries: "The Rain",
+    favSeriesID: "76719-the-rain",
+  },
 ];
