@@ -24,30 +24,39 @@ header {
     display: flex;
     align-items: center;
 }
+
 header>img {
     width: 50px;
     height: 50px;
     margin-right: 15px;
 }
+
 #title {
     color: var(--secondary);
     font-size: 48px;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-/* css for title animation */
+
+
+/* TITLE ANIMATION */
+
 .ml11 {
     font-weight: 700;
     font-size: 3.5em;
     color: var(--secondary);
 }
+
 .ml11 .text-wrapper {
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: center;
     padding-top: 0.1em;
     padding-right: 0.05em;
     padding-bottom: 0.15em;
+
 }
+
 .ml11 .line {
     opacity: 0;
     position: absolute;
@@ -57,16 +66,20 @@ header>img {
     background-color: var(--white);
     transform-origin: 0 50%;
 }
+
 .ml11 .line1 {
     top: 0;
     left: 0;
 }
+
 .ml11 .letter {
     display: inline-block;
     line-height: 1em;
 }
 
-/* Style the tab */
+
+/* TAB STYLING */
+
 .tab {
     width: 100%;
     margin-top: 20px;
@@ -75,6 +88,7 @@ header>img {
     border: 1px solid var(--primary);
     background-color: var(--white);
 }
+
 .tab button {
     background-color: inherit;
     border: none;
@@ -83,48 +97,89 @@ header>img {
     padding: 15px;
     color: var(--primary);
 }
+
 .tab button:hover {
     background-color: var(--gray);
 }
+
 .tab button.active {
     background-color: var(--primary);
     color: var(--secondary);
 }
+
 .tabcontent {
     display: none;
     padding: 5px;
 }
 
-/* style for table */
+
+/* TABLE STYLING */
+
 table {
     width: 100%;
     border-collapse: collapse;
     font-size: 18px;
 }
+
 td {
     padding: 10px;
     /* font-size: 20px; */
 }
+
 tr:hover {
     background-color: var(--secondary);
     color: var(--primary);
 }
+
 td:first-child {
     text-align: left;
 }
+
 tr:nth-child(1) {
     font-weight: 600;
 }
+
 a {
     text-decoration: none;
     color: var(--white);
 }
 
+
+/* FOOTER STYLING */
+
 footer {
     margin-top: 20px;
     color: var(--secondary);
 }
+
 footer > div > a {
     color: var(--secondary);
     text-decoration: underline;
+}
+
+
+/* RESPONSIVE ELEMENTS */
+
+@media screen and (max-width: 600px) {
+    span.letters {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    span.letters {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    span.letters {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    span.letters {
+        font-size: 18px;
+    }
 }
