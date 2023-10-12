@@ -130,3 +130,27 @@ footer > div > a {
     color: var(--secondary);
     text-decoration: underline;
 }
+
+@media screen and (max-width: 600px) {
+    span.letters {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    span.letters {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    span.letters {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    span.letters {
+        font-size: 18px;
+    }
+}
