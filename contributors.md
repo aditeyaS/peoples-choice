@@ -48,3 +48,5 @@ BlankAmber [GitHub](https://github.com/BlankAmber)
 <br/>
 Ankush Tripathi [GitHub](https://github.com/ankushtripathii) | [LinkedIn](https://www.linkedin.com/in/ankush-tripathi-547008234/)
 <br/>
+Júlio Mazotti [GitHub](https://github.com/maztt) | [LinkedIn](https://www.linkedin.com/in/juliomasson)
+<br/>
