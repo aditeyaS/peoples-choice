@@ -43,10 +43,12 @@ header>img {
 }
 .ml11 .text-wrapper {
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: center;
     padding-top: 0.1em;
     padding-right: 0.05em;
     padding-bottom: 0.15em;
+
 }
 .ml11 .line {
     opacity: 0;
