@@ -83,6 +83,7 @@ header>img {
 .tab {
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 20px;
     display: inline-grid;
     grid-template-columns: auto auto auto;
     border: 1px solid var(--primary);
@@ -121,6 +122,11 @@ table {
     font-size: 18px;
 }
 
+thead{
+    font-size: 130%;
+    background-color: var(--primary);
+}
+
 td {
     padding: 10px;
     /* font-size: 20px; */
@@ -129,6 +135,10 @@ td {
 tr:hover {
     background-color: var(--secondary);
     color: var(--primary);
+    font-weight: bolder;
+    .fa{
+        color: var(--primary);
+    }
 }
 
 td:first-child {
