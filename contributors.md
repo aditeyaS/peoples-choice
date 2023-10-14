@@ -50,3 +50,5 @@ Ankush Tripathi [GitHub](https://github.com/ankushtripathii) | [LinkedIn](https:
 <br/>
 Júlio Mazotti [GitHub](https://github.com/maztt) | [LinkedIn](https://www.linkedin.com/in/juliomasson)
 <br/>
+Izabela Marcinkowska [GitHub](https://github.com/izabela-marcinkowska)
+<br/>
