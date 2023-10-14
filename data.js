@@ -224,4 +224,13 @@ const peopleChoiceData = [
     favSeries: "The Rain",
     favSeriesID: "76719-the-rain",
   },
+  {
+    username: "izabela-marcinkowska",
+    favAnime: "Cells at Work!",
+    favAnimeID: "80671",
+    favMovie: "Up",
+    favMovieID: "14160-up",
+    favSeries: "The Office",
+    favSeriesID: "2316-the-office",
+  },
 ];
