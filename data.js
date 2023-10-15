@@ -233,4 +233,13 @@ const peopleChoiceData = [
     favSeries: "The Office",
     favSeriesID: "2316-the-office",
   },
+  {
+    username: "Chaitanya Sesha Govind",
+    favAnime: "Death Note",
+    favAnimeID: "13916-death-note",
+    favMovie: "Interstellar",
+    favMovieID: "157336-interstellar",
+    favSeries: "Game of Thrones",
+    favSeriesID: "1399-game-of-thrones",
+  }
 ];
