@@ -224,4 +224,13 @@ const peopleChoiceData = [
     favSeries: "The Rain",
     favSeriesID: "76719-the-rain",
   },
+  {
+    username: "Vishnu Sandeep",
+    favAnime: "Black Clover",
+    favAnimeID: "73223-black-clover",
+    favMovie: "Interstellar",
+    favMovieID: "157336-interstellar",
+    favSeries: "The Mentalist",
+    favSeriesID: "5920-the-mentalist",
+  },
 ];

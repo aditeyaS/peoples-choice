@@ -50,3 +50,5 @@ Ankush Tripathi [GitHub](https://github.com/ankushtripathii) | [LinkedIn](https:
 <br/>
 Júlio Mazotti [GitHub](https://github.com/maztt) | [LinkedIn](https://www.linkedin.com/in/juliomasson)
 <br/>
+Vishnu Sandeep [GitHub](https://github.com/VishnuSandeep1108) | [LinkedIn](https://www.linkedin.com/in/vishnu-sandeep-reddy-954222203/)
+<br/>
