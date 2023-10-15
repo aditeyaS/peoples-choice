@@ -261,6 +261,15 @@ const peopleChoiceData = [
     favSeriesID: "5920-the-mentalist",
   },
   {
+    username: "hijal",
+    favAnime: "Lookism",
+    favAnimeID: "210942-lookism",
+    favMovie: "Sonic the Hedgehog",
+    favMovieID: "454626-sonic-the-hedgehog",
+    favSeries: "Game of Thrones",
+    favSeriesID: "1399-game-of-thrones"
+  },
+  {
     username: "PatrickNv23",
     favAnime: "One Piece",
     favAnimeID: "37854",
