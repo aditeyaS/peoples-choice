@@ -56,3 +56,5 @@ Chaitanya Sesha Govind [Github](https://github.com/Chaitanya-sesha-govind) | [Li
 </br>
 Vishnu Sandeep [Github](https://github.com/VishnuSandeep1108/) | [Linkedin](https://www.linkedin.com/in/vishnu-sandeep-reddy-954222203/)
 </br>
+Patrick Navarro [Github](https://github.com/PatrickNv23) | [Linkedin](https://www.linkedin.com/in/patrick-navarro-79104b245/)
+</br>
