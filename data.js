@@ -241,5 +241,14 @@ const peopleChoiceData = [
     favMovieID: "157336-interstellar",
     favSeries: "Game of Thrones",
     favSeriesID: "1399-game-of-thrones",
-  }
+  },
+  {
+    username: "vishnuSandeep1108",
+    favAnime: "Black Clover",
+    favAnimeID: "73223-black-clover",
+    favMovie: "Interstellar",
+    favMovieID: "157336-interstellar",
+    favSeries: "The Mentalist",
+    favSeriesID: "5920-the-mentalist",
+  },
 ];
