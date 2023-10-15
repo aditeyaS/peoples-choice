@@ -52,3 +52,5 @@ Júlio Mazotti [GitHub](https://github.com/maztt) | [LinkedIn](https://www.linke
 <br/>
 Izabela Marcinkowska [GitHub](https://github.com/izabela-marcinkowska)
 <br/>
+Chaitanya Sesha Govind [Github](https://github.com/Chaitanya-sesha-govind) | [Linkedin](https://www.linkedin.com/in/posimsetty-chaitanya-sesha-govind-41781a250/)
+</br>

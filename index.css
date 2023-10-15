@@ -132,7 +132,7 @@ td {
     /* font-size: 20px; */
 }
 
-tr:hover {
+.inside-row tr:hover {
     background-color: var(--secondary);
     color: var(--primary);
     font-weight: bolder;
