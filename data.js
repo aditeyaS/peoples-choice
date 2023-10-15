@@ -251,4 +251,13 @@ const peopleChoiceData = [
     favSeries: "The Mentalist",
     favSeriesID: "5920-the-mentalist",
   },
+  {
+    username: "PatrickNv23",
+    favAnime: "One Piece",
+    favAnimeID: "37854",
+    favMovie: "Spider-Man",
+    favMovieID: "557-spider-man",
+    favSeries: "Silicon Valley",
+    favSeriesID: "60573-silicon-valley",
+  },
 ];
