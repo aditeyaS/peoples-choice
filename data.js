@@ -189,6 +189,15 @@ const peopleChoiceData = [
     favSeriesID: "37680-suits",
   },
   {
+    username: "nisoojadhav",
+    favAnime: "High School of the Dead",
+    favAnimeID: "56998-gakuen-mokushiroku-high-school-of-the-dead",
+    favMovie: "Good Will Hunting",
+    favMovieID: "489-good-will-hunting",
+    favSeries: "Squid Game",
+    favSeriesID: "93405",
+  },
+  {
     username: "sandesh-theMayGuy",
     favAnime: "Death Note",
     favAnimeID: "13916-death-note",
@@ -259,5 +268,14 @@ const peopleChoiceData = [
     favMovieID: "454626-sonic-the-hedgehog",
     favSeries: "Game of Thrones",
     favSeriesID: "1399-game-of-thrones"
-  }
+  },
+  {
+    username: "PatrickNv23",
+    favAnime: "One Piece",
+    favAnimeID: "37854",
+    favMovie: "Spider-Man",
+    favMovieID: "557-spider-man",
+    favSeries: "Silicon Valley",
+    favSeriesID: "60573-silicon-valley",
+  },
 ];

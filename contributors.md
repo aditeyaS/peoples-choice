@@ -58,3 +58,7 @@ Vishnu Sandeep [Github](https://github.com/VishnuSandeep1108/) | [Linkedin](http
 </br>
 Hijikesh Hijal [Github](https://github.com/hijal/) | [Linkedin](https://www.linkedin.com/in/hijal/)
 </br>
+Nishant Jadhav [Github](https://github.com/nisoojadhav/) | [Linkedin](https://linkedin.com/in/nisoojadhav/) | [Website](https://nisootech.vercel.app/) | [Linktree](https://linktr.ee/nisoojadhav)
+</br>
+Patrick Navarro [Github](https://github.com/PatrickNv23) | [Linkedin](https://www.linkedin.com/in/patrick-navarro-79104b245/)
+</br>
