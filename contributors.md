@@ -56,3 +56,5 @@ Chaitanya Sesha Govind [Github](https://github.com/Chaitanya-sesha-govind) | [Li
 </br>
 Vishnu Sandeep [Github](https://github.com/VishnuSandeep1108/) | [Linkedin](https://www.linkedin.com/in/vishnu-sandeep-reddy-954222203/)
 </br>
+Nishant Jadhav [Github](https://github.com/nisoojadhav/) | [Linkedin](https://linkedin.com/in/nisoojadhav/) | [Website](https://nisootech.vercel.app/) | [Linktree](https://linktr.ee/nisoojadhav)
+</br>
