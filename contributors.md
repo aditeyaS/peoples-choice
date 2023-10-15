@@ -54,3 +54,5 @@ Izabela Marcinkowska [GitHub](https://github.com/izabela-marcinkowska)
 <br/>
 Chaitanya Sesha Govind [Github](https://github.com/Chaitanya-sesha-govind) | [Linkedin](https://www.linkedin.com/in/posimsetty-chaitanya-sesha-govind-41781a250/)
 </br>
+Vishnu Sandeep [Github](https://github.com/VishnuSandeep1108/) | [Linkedin](https://www.linkedin.com/in/vishnu-sandeep-reddy-954222203/)
+</br>
