@@ -41,13 +41,13 @@ header>img {
 
 /* TITLE ANIMATION */
 
-.ml11 {
+ .ml11 {
     font-weight: 700;
     font-size: 3.5em;
     color: var(--secondary);
-}
+} 
 
-.ml11 .text-wrapper {
+ .ml11 .text-wrapper {
     position: relative;
     display: flex;
     align-items: center;
@@ -65,17 +65,17 @@ header>img {
     width: 3px;
     background-color: var(--white);
     transform-origin: 0 50%;
-}
+} 
 
-.ml11 .line1 {
-    top: 0;
-    left: 0;
-}
+    .ml11 .line1 {
+        top: 0;
+        left: 0;
+    } 
 
 .ml11 .letter {
     display: inline-block;
     line-height: 1em;
-}
+} 
 
 
 /* TAB STYLING */
