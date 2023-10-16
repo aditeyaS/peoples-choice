@@ -267,7 +267,7 @@ const peopleChoiceData = [
     favMovie: "Sonic the Hedgehog",
     favMovieID: "454626-sonic-the-hedgehog",
     favSeries: "Game of Thrones",
-    favSeriesID: "1399-game-of-thrones"
+    favSeriesID: "1399-game-of-thrones",
   },
   {
     username: "PatrickNv23",
