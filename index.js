@@ -1,27 +1,8 @@
-// changing tabs
-function changeCategory(evt, categoryName) {
-  let i, tabcontent, tablinks;
-
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  document.getElementById(categoryName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-document.getElementById("defaultOpen").click();
-
 const animeData = [];
 const movieData = [];
 const seriesData = [];
 
+//fetch data
 peopleChoiceData.forEach((data) => {
   // anime
   if (data.favAnime != null && data.favAnimeID != null) {
@@ -56,13 +37,44 @@ animeData.sort((a, b) => b.count - a.count);
 movieData.sort((a, b) => b.count - a.count);
 seriesData.sort((a, b) => b.count - a.count);
 
+// changing tabs
+function changeCategory(evt, categoryName) {
+  let i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  document.getElementById(`${categoryName}-data`).style.display = "block";
+  evt.currentTarget.className += " active";
+
+  let data =
+    categoryName === "anime"
+      ? animeData
+      : categoryName === "movie"
+      ? movieData
+      : seriesData;
+
+  populateTable(
+    `${categoryName}-table`,
+    data,
+    `https://www.themoviedb.org/${categoryName}/`
+  );
+}
+
+document.getElementById("defaultOpen").click();
+
 // animeData = animeData.slice(0, 3);
 
 // Populate tables
 function populateTable(tableId, data, linkPrefix) {
   const table = document.getElementById(tableId);
   data.forEach((item) => {
-    console.log(item);
     const row = table.insertRow();
     row.setAttribute("data-aos", "fade-right");
     const nameCell = row.insertCell(0);
@@ -74,9 +86,6 @@ function populateTable(tableId, data, linkPrefix) {
     linkCell.innerHTML = `<a href="${linkPrefix}${item.id}/" target="_blank"><i class="fa fa-external-link"></i></a>`;
   });
 }
-populateTable("anime-table", animeData, "https://www.themoviedb.org/tv/");
-populateTable("movie-table", movieData, "https://www.themoviedb.org/movie/");
-populateTable("series-table", seriesData, "https://www.themoviedb.org/tv/");
 
 document.getElementById("contributor-credits").innerHTML = `${
   peopleChoiceData.length - 1
