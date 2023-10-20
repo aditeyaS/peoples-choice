@@ -1,59 +1,101 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="assets/favicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="index.css" />
-    <title>People Choice</title> 
-</head> 
-<body>
-    <h1 id="title">People's Choice</h1>
-    <h3 id="total-votes"></h3>
-    <div id="main-layout">
-        <h3 class="award-title">Best Anime</h3>
-        <div class="card">
-            <h3 id="anime-name"></h3>
-            <div class="details">
-                <div class="likes">
-                    <i class="fa fa-heart" style="color: red;"></i>
-                    <p id="anime-vote-count"></p>
-                </div>
-                <a id="anime-link" class="tmdb-link" target="_blank">
-                    <i class="fa fa-external-link" style="color: white;"></i>
-                </a>
-            </div>
-        </div>
-        <h3 class="award-title">Best Movie</h3>
-        <div class="card">
-            <h3 id="movie-name"></h3>
-            <div class="details">
-                <div class="likes">
-                    <i class="fa fa-heart" style="color: red;"></i>
-                    <p id="movie-vote-count"></p>
-                </div>
-                <a id="movie-link" class="tmdb-link" target="_blank">
-                    <i class="fa fa-external-link" style="color: white;"></i>
-                </a>
-            </div>
-        </div>
-        <h3 class="award-title">Best Series</h3>
-        <div class="card">
-            <h3 id="series-name"></h3>
-            <div class="details">
-                <div class="likes">
-                    <i class="fa fa-heart" style="color: red;"></i>
-                    <p id="series-vote-count"></p>
-                </div>
-                <a id="series-link" class="tmdb-link" target="_blank">
-                    <i class="fa fa-external-link" style="color: white;"></i>
-                </a>
-            </div>
-        </div>
+    <title>People Choice</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="assets/favicon.ico" alt="Logo" />
+      <h1 class="ml11 title">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters">PEOPLE'S CHOICE</span>
+        </span>
+      </h1>
+    </header>
+
+    <div class="tab">
+      <button
+        id="defaultOpen"
+        class="tablinks"
+        onclick="changeCategory(event, 'anime')"
+      >
+        Anime
+      </button>
+      <button class="tablinks" onclick="changeCategory(event, 'movie')">
+        Movies
+      </button>
+      <button class="tablinks" onclick="changeCategory(event, 'series')">
+        TV Series
+      </button>
     </div>
+
+    <div id="anime-data" class="tabcontent">
+      <table>
+        <thead>
+          <td>Anime Name</td>
+          <td>Anime Rating</td>
+          <td>Anime Link</td>
+        </thead>
+        <tbody id="anime-table" class="inside-row"></tbody>
+      </table>
+    </div>
+
+    <div id="movie-data" class="tabcontent">
+      <table>
+        <thead>
+          <td>Movie Name</td>
+          <td>Movie Rating</td>
+          <td>Movie Link</td>
+        </thead>
+        <tbody id="movie-table" class="inside-row"></tbody>
+      </table>
+    </div>
+
+    <div id="series-data" class="tabcontent">
+      <table>
+        <thead>
+          <td>Series Name</td>
+          <td>Series Rating</td>
+          <td>Series Link</td>
+        </thead>
+        <tbody id="series-table" class="inside-row"></tbody>
+      </table>
+    </div>
+
+    <footer>
+      <div>
+        Made with
+        <i class="fa fa-heart" style="color: red"></i>
+        by
+        <a href="https://aditeyas.github.io/" target="_blank">Aditeya</a>
+      </div>
+      <div>
+        and
+        <a
+          id="contributor-credits"
+          href="https://github.com/aditeyaS/peoples-choice/graphs/contributors"
+          target="_blank"
+        ></a>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script type="text/javascript" src="data.js"></script>
     <script type="text/javascript" src="index.js"></script>
-</body> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
