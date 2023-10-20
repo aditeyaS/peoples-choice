@@ -287,4 +287,14 @@ const peopleChoiceData = [
     favSeries: "Silicon Valley",
     favSeriesID: "60573-silicon-valley",
   },
+  {
+    username: "prabhat224",
+    favAnime: "Parasyte -the maxim",
+    favAnimeID: "61459-kiseij-sei-no-kakuritsu",
+    favMovie: "American Psycho",
+    favMovieID: "1359-american-psycho",
+    favSeries: "Vikings",
+    favSeriesID: "44217-vikings",
+  },
+
 ];
