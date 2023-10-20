@@ -6,6 +6,8 @@ Rémi JARA [GitHub](https://github.com/icepick4) | [LinkedIn](https://www.linked
 </br>
 Sumant Chaudhary [GitHub](https://github.com/sumant7) | [LinkedIn](https://www.linkedin.com/in/sumant-chaudhary-276011200/)
 </br>
+Erwann Lagouche [Github](https://github.com/AirOne01) | [LinkedIn](https://www.linkedin.com/in/erwann-lagouche-09550b222/)
+</br>
 Sejal Bansal [GitHub](https://github.com/sejal-bansal) | [LinkedIn](https://www.linkedin.com/in/sejalbansal/)
 </br>
 Arjun Pandit [GitHub](https://github.com/arjunpndt) | [LinkedIn](https://www.linkedin.com/in/arjunpandit/)
