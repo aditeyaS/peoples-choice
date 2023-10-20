@@ -63,7 +63,7 @@ function changeCategory(evt, categoryName) {
   populateTable(
     `${categoryName}-table`,
     data,
-    `https://www.themoviedb.org/${categoryName}/`
+    `https://www.themoviedb.org/tv/`
   );
 }
 
