@@ -303,7 +303,7 @@ const peopleChoiceData = [
     favMovie: "Shutter Island",
     favMovieID: "11324-shutter-island",
     favSeries: "Chernobyl",
-    favSeriesID: "87108-chernobyl"
+    favSeriesID: "87108-chernobyl",
 },
 
 ];
