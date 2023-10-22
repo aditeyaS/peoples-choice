@@ -133,3 +133,67 @@ anime
     easing: "easeOutExpo",
     delay: 1000,
   });
+// Function to filter data based on the search input
+function filterData(searchTerm, data) {
+  searchTerm = searchTerm.toLowerCase();
+  return data.filter((item) => item.name.toLowerCase().includes(searchTerm));
+}
+// Function to show the search results
+function showSearchResults() {
+  const searchResults = document.getElementById("search-results");
+  searchResults.style.display = "block";
+}
+
+// Event listener for input focus
+const input1 = document.getElementById("input");
+input1.addEventListener("focus", showSearchResults);
+
+// Function to display search results
+function displaySearchResults(searchResults) {
+  const searchResultsTable = document.getElementById("search-results-table");
+  searchResultsTable.innerHTML = '';
+
+  if (searchResults.length === 0) {
+    const noResultsRow = document.createElement('tr');
+    noResultsRow.innerHTML = '<td>No results found</td>';
+    searchResultsTable.appendChild(noResultsRow);
+  } else {
+    searchResults.forEach((item) => {
+      const row = document.createElement('tr');
+      const nameCell = row.insertCell(0);
+      const ratingCell = row.insertCell(1);
+      const linkCell = row.insertCell(2);
+
+      nameCell.textContent = item.name;
+      ratingCell.innerHTML = `<i class="fa fa-heart" style="color: red;"></i> ${item.count}`;
+      linkCell.innerHTML = `<a href="https://www.themoviedb.org/tv/${item.id}" target="_blank"><i class="fa fa-external-link"></i></a>`;
+
+      searchResultsTable.appendChild(row);
+    });
+  }
+}
+
+
+
+// Event listener for input changes
+const input = document.getElementById("input");
+input.addEventListener("input", function () {
+  const searchTerm = this.value;
+  let searchResults;
+
+  if (searchTerm) {
+    // Perform the search for anime, movies, and series
+    const animeSearchResults = filterData(searchTerm, animeData);
+    const movieSearchResults = filterData(searchTerm, movieData);
+    const seriesSearchResults = filterData(searchTerm, seriesData);
+
+    // Combine the results from all categories
+    searchResults = [...animeSearchResults, ...movieSearchResults, ...seriesSearchResults];
+  } else {
+    // If the search input is empty, clear the search results
+    searchResults = [];
+  }
+
+  // Display the search results
+  displaySearchResults(searchResults);
+});
