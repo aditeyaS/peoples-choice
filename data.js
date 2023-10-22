@@ -296,5 +296,14 @@ const peopleChoiceData = [
     favSeries: "Vikings",
     favSeriesID: "44217-vikings",
   },
+  {
+    username: "imsherlocked",
+    favAnime: "Death Note",
+    favAnimeID: "13916-death-note",
+    favMovie: "The Avengers: End Game",
+    favMovieID: "299534-avengers-endgame",
+    favSeries: "Friends",
+    favSeriesID: "1668-friends",
+  },
 
 ];
