@@ -304,6 +304,15 @@ const peopleChoiceData = [
     favMovieID: "11324-shutter-island",
     favSeries: "Chernobyl",
     favSeriesID: "87108-chernobyl",
-},
+  },
+    {
+    username: "lolomaku",
+    favAnime: "Frieren: Beyond Journey's End",
+    favAnimeID: "209867",
+    favMovie: "Zack Snyder's Justice League",
+    favMovieID: "791373-zack-snyder-s-justice-league",
+    favSeries: "Sense8",
+    favSeriesID: "61664-sense8",
+  },
 
 ];
