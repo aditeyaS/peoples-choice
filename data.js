@@ -305,5 +305,13 @@ const peopleChoiceData = [
     favSeries: "Friends",
     favSeriesID: "1668-friends",
   },
-
+  {
+    username: "Akilan_19",
+    favAnime: "Paranoia Agent",
+    favAnimeID: "9343-mousou-dairinin",
+    favMovie: "Shutter Island",
+    favMovieID: "11324-shutter-island",
+    favSeries: "Chernobyl",
+    favSeriesID: "87108-chernobyl",
+  },
 ];
