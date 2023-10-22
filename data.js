@@ -297,6 +297,15 @@ const peopleChoiceData = [
     favSeriesID: "44217-vikings",
   },
   {
+    username: "imsherlocked",
+    favAnime: "Death Note",
+    favAnimeID: "13916-death-note",
+    favMovie: "The Avengers: End Game",
+    favMovieID: "299534-avengers-endgame",
+    favSeries: "Friends",
+    favSeriesID: "1668-friends",
+  },
+  {
     username: "Akilan_19",
     favAnime: "Paranoia Agent",
     favAnimeID: "9343-mousou-dairinin",
@@ -304,6 +313,5 @@ const peopleChoiceData = [
     favMovieID: "11324-shutter-island",
     favSeries: "Chernobyl",
     favSeriesID: "87108-chernobyl",
-},
-
+  },
 ];
