@@ -23,30 +23,54 @@
           <span class="letters">PEOPLE'S CHOICE</span>
         </span>
       </h1>
+      <div class="InputContainer">
+        <input type="text" name="text" class="input" id="input" placeholder="Search">
+        <label for="input" class="labelforsearch">
+          <svg viewBox="0 0 512 512" class="searchIcon">
+            <path
+              d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+            ></path>
+          </svg>
+        </label>
+        <div class="border"></div>
+      </div>
     </header>
 
     <div class="tab">
       <button
         id="defaultOpen"
-        class="tablinks"
+        class="tablinks active"
         onclick="changeCategory(event, 'anime')"
+        data-category="anime"
       >
         Anime
       </button>
-      <button class="tablinks" onclick="changeCategory(event, 'movie')">
+      <button class="tablinks" onclick="changeCategory(event, 'movie')" data-category="movie">
         Movies
       </button>
-      <button class="tablinks" onclick="changeCategory(event, 'series')">
+      <button class="tablinks" onclick="changeCategory(event, 'series')" data-category="series">
         TV Series
       </button>
+    </div>
+    <div id="search-results" class="tabcontent" style="display: none;">
+      <table>
+        <thead>
+          <tr>
+            <td>Search Results</td>
+          </tr>
+        </thead>
+        <tbody id="search-results-table" class="inside-row"></tbody>
+      </table>
     </div>
 
     <div id="anime-data" class="tabcontent">
       <table>
         <thead>
-          <td>Anime Name</td>
-          <td>Anime Rating</td>
-          <td>Anime Link</td>
+          <tr>
+            <td>Anime Name</td>
+            <td>Anime Rating</td>
+            <td>Anime Link</td>
+          </tr>
         </thead>
         <tbody id="anime-table" class="inside-row"></tbody>
       </table>
@@ -55,9 +79,11 @@
     <div id="movie-data" class="tabcontent">
       <table>
         <thead>
-          <td>Movie Name</td>
-          <td>Movie Rating</td>
-          <td>Movie Link</td>
+          <tr>
+            <td>Movie Name</td>
+            <td>Movie Rating</td>
+            <td>Movie Link</td>
+          </tr>
         </thead>
         <tbody id="movie-table" class="inside-row"></tbody>
       </table>
@@ -66,9 +92,11 @@
     <div id="series-data" class="tabcontent">
       <table>
         <thead>
-          <td>Series Name</td>
-          <td>Series Rating</td>
-          <td>Series Link</td>
+          <tr>
+            <td>Series Name</td>
+            <td>Series Rating</td>
+            <td>Series Link</td>
+          </tr>
         </thead>
         <tbody id="series-table" class="inside-row"></tbody>
       </table>

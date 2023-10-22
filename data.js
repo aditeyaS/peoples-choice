@@ -297,6 +297,15 @@ const peopleChoiceData = [
     favSeriesID: "44217-vikings",
   },
   {
+    username: "imsherlocked",
+    favAnime: "Death Note",
+    favAnimeID: "13916-death-note",
+    favMovie: "The Avengers: End Game",
+    favMovieID: "299534-avengers-endgame",
+    favSeries: "Friends",
+    favSeriesID: "1668-friends",
+  },
+  {
     username: "Akilan_19",
     favAnime: "Paranoia Agent",
     favAnimeID: "9343-mousou-dairinin",
@@ -305,7 +314,7 @@ const peopleChoiceData = [
     favSeries: "Chernobyl",
     favSeriesID: "87108-chernobyl",
   },
-    {
+  {
     username: "lolomaku",
     favAnime: "Frieren: Beyond Journey's End",
     favAnimeID: "209867",
@@ -314,5 +323,4 @@ const peopleChoiceData = [
     favSeries: "Sense8",
     favSeriesID: "61664-sense8",
   },
-
 ];
