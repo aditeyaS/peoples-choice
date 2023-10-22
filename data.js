@@ -323,4 +323,13 @@ const peopleChoiceData = [
     favSeries: "Sense8",
     favSeriesID: "61664-sense8",
   },
+  {
+    username: "Akilan19",
+    favAnime: "Tsuritama",
+    favAnimeID: "45283-tsuritama",
+    favMovie: "Sound of Freedom",
+    favMovieID: "678512-sound-of-freedom",
+    favSeries: "Once",
+    favSeriesID: "72637-o11ce",
+  },
 ];
