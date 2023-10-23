@@ -57,8 +57,8 @@ function changeCategory(evt, categoryName) {
     categoryName === "anime"
       ? animeData
       : categoryName === "movie"
-      ? movieData
-      : seriesData;
+        ? movieData
+        : seriesData;
 
   let linkPrefix =
     categoryName === "movie"
@@ -92,9 +92,8 @@ function populateTable(tableId, data, linkPrefix) {
   });
 }
 
-document.getElementById("contributor-credits").innerHTML = `${
-  peopleChoiceData.length - 1
-} contributors`;
+document.getElementById("contributor-credits").innerHTML = `${peopleChoiceData.length - 1
+  } contributors`;
 
 // animation of header
 let textWrapper = document.querySelector(".ml11 .letters");
@@ -117,7 +116,7 @@ anime
     translateX: [
       0,
       document.querySelector(".ml11 .letters").getBoundingClientRect().width +
-        10,
+      10,
     ],
     easing: "easeOutExpo",
     duration: 700,
@@ -146,12 +145,23 @@ function filterData(searchTerm, data) {
 // Function to show the search results
 function showSearchResults() {
   const searchResults = document.getElementById("search-results");
-  searchResults.style.display = "block";
+  const input1 = document.getElementById("input");
+  // searchResults.style.display = "block";
+  input1.addEventListener("focus", showSearchResults);
+
+  if (input1.value === "") {
+    searchResults.style.display = "none";
+  } else {
+    searchResults.style.display = "block";
+  }
 }
 
+
+
 // Event listener for input focus
-const input1 = document.getElementById("input");
-input1.addEventListener("focus", showSearchResults);
+// const input1 = document.getElementById("input");
+// input1.addEventListener("focus", showSearchResults);
+
 
 // Function to display search results
 function displaySearchResults(searchResults) {
