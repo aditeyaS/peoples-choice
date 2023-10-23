@@ -60,10 +60,15 @@ function changeCategory(evt, categoryName) {
       ? movieData
       : seriesData;
 
+  let linkPrefix =
+    categoryName === "movie"
+      ? "https://www.themoviedb.org/movie/"
+      : "https://www.themoviedb.org/tv/";
+
   populateTable(
     `${categoryName}-table`,
     data,
-    `https://www.themoviedb.org/tv/`
+    linkPrefix
   );
 }
 
