@@ -72,3 +72,5 @@ Akilan [GitHub](https://github.com/Akilan19)
 <br/>
 LoloMaku [GitHub](https://github.com/lolomaku)
 <br/>
+Anmol Agarwal [GitHub](https://github.com/onemole6022) | [LinkedIn](https://www.linkedin.com/in/anmolagarwal404/)
+<br/>

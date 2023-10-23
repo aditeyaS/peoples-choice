@@ -323,4 +323,13 @@ const peopleChoiceData = [
     favSeries: "Sense8",
     favSeriesID: "61664-sense8",
   },
+  {
+    username: 'onemole6022',
+    favAnime: 'Your Name.',
+    favAnimeID: '372058',
+    favMovie: 'Now You See Me',
+    favMovieID: '75656-now-you-see-me',
+    favSeries: 'Friends',
+    favSeriesID: '1668-friends'
+  },
 ];
