@@ -306,7 +306,7 @@ const peopleChoiceData = [
     favSeriesID: "1668-friends",
   },
   {
-    username: "Akilan_19",
+    username: "Akilan19",
     favAnime: "Paranoia Agent",
     favAnimeID: "9343-mousou-dairinin",
     favMovie: "Shutter Island",
@@ -331,5 +331,14 @@ const peopleChoiceData = [
     favMovieID: "678512-sound-of-freedom",
     favSeries: "Once",
     favSeriesID: "72637-o11ce",
+  },
+  { 
+    username: 'onemole6022',
+    favAnime: 'Your Name.',
+    favAnimeID: '372058',
+    favMovie: 'Now You See Me',
+    favMovieID: '75656-now-you-see-me',
+    favSeries: 'Friends',
+    favSeriesID: '1668-friends'
   },
 ];
