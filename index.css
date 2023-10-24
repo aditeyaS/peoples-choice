@@ -26,6 +26,14 @@ header {
   justify-content: space-around;
 }
 
+.heading {
+  width: 66vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
 header > img {
   width: 50px;
   height: 50px;
@@ -223,6 +231,18 @@ footer > div > a {
 
   .labelforsearch {
     display: none; /* Hide the label to save space */
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .heading{
+    justify-content: center;
+     gap: 20px;
+     width: 100vw;
+  }
+  header {
+    flex-direction: column;
+    gap: 20px;
   }
 }
 
