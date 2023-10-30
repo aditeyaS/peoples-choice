@@ -1,12 +1,12 @@
 const peopleChoiceData = [
   {
-    username: 'AirOne01',
-    favAnime: 'Sword Art Online',
-    favAnimeID: '45782',
-    favMovie: 'Interstellar',
-    favMovieID: '157336',
-    favSeries: 'Mr. Robot',
-    favSeriesID: '62560'
+    username: "AirOne01",
+    favAnime: "Sword Art Online",
+    favAnimeID: "45782",
+    favMovie: "Interstellar",
+    favMovieID: "157336",
+    favSeries: "Mr. Robot",
+    favSeriesID: "62560",
   },
   {
     username: "aditeyaS",
@@ -324,12 +324,21 @@ const peopleChoiceData = [
     favSeriesID: "61664-sense8",
   },
   {
-    username: 'onemole6022',
-    favAnime: 'Your Name.',
-    favAnimeID: '372058',
-    favMovie: 'Now You See Me',
-    favMovieID: '75656-now-you-see-me',
-    favSeries: 'Friends',
-    favSeriesID: '1668-friends'
+    username: "onemole6022",
+    favAnime: "Your Name.",
+    favAnimeID: "372058",
+    favMovie: "Now You See Me",
+    favMovieID: "75656-now-you-see-me",
+    favSeries: "Friends",
+    favSeriesID: "1668-friends",
+  },
+  {
+    username: "jenster5",
+    favAnime: "Pokemon",
+    favAnimeID: "60572",
+    favMovie: "Shaun of the Dead",
+    favMovieID: "747-shaun-of-the-dead",
+    favSeries: "Firefly",
+    favSeriesID: "1437-firefly",
   },
 ];
