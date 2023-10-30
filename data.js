@@ -306,7 +306,7 @@ const peopleChoiceData = [
     favSeriesID: "1668-friends",
   },
   {
-    username: "Akilan_19",
+    username: "Akilan19",
     favAnime: "Paranoia Agent",
     favAnimeID: "9343-mousou-dairinin",
     favMovie: "Shutter Island",

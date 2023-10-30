@@ -68,7 +68,7 @@ Sushma Jayaram [Github](https://github.com/sushma1031) | [Linkedin](https://www.
 </br>
 Prabhat Dwivedi [Github](https://github.com/prabhat224) | [Linkedin](https://www.linkedin.com/in/prabhat-dwivedi-293886243//)
 </br>
-Akilan [GitHub](https://github.com/Akilan19)
+Akilan [GitHub](https://github.com/Akilan19) | [Linkedin](https://www.linkedin.com/in/akilan-y-713988212/)
 <br/>
 LoloMaku [GitHub](https://github.com/lolomaku)
 <br/>
