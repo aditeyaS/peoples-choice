@@ -76,3 +76,5 @@ Anmol Agarwal [GitHub](https://github.com/onemole6022) | [LinkedIn](https://www.
 <br/>
 Jennifer Feenstra [GitHub](https://github.com/jenster5) | [LinkedIn](https://https://www.linkedin.com/in/jennifer-feenstra-arengard/)
 <br/>
+Shivam Nahar [GitHub](https://github.com/imsherlocked) | [Linkedin](https://www.linkedin.com/in/shivam-nahar/)
+<br/>
