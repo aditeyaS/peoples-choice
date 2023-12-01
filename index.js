@@ -76,6 +76,23 @@ document.getElementById("defaultOpen").click();
 
 // animeData = animeData.slice(0, 3);
 
+window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("backToTopBtn").style.display = "block";
+  } else {
+    document.getElementById("backToTopBtn").style.display = "none";
+  }
+}
+
+document.getElementById("backToTopBtn").onclick = function() {
+  document.body.scrollTop = 0; // for Safari
+  document.documentElement.scrollTop = 0; // for Chrome
+};
+
 // Populate tables
 function populateTable(tableId, data, linkPrefix) {
   const table = document.getElementById(tableId);
