@@ -6,7 +6,7 @@ const peopleChoiceData = [
     favMovie: "Interstellar",
     favMovieID: "157336",
     favSeries: "Mr. Robot",
-    favSeriesID: "62560",
+    favSeriesID: "62560-mr-robot",
   },
   {
     username: "aditeyaS",
