@@ -96,6 +96,10 @@ document.getElementById("backToTopBtn").onclick = function() {
 // Populate tables
 function populateTable(tableId, data, linkPrefix) {
   const table = document.getElementById(tableId);
+    // Clear existing rows
+  while (table.rows.length > 0) {
+    table.deleteRow(0);
+  }
   data.forEach((item) => {
     const row = table.insertRow();
     row.setAttribute("data-aos", "fade-right");
