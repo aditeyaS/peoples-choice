@@ -93,6 +93,41 @@ document.getElementById("backToTopBtn").onclick = function() {
   document.documentElement.scrollTop = 0; // for Chrome
 };
 
+// sorting table based on column index and order
+function sortTable(table, column, ascending = true) {
+    const dirModifier = ascending ? 1 : -1;
+    const tBody = table.tBodies[0];
+    const rows = Array.from(tBody.querySelectorAll("tr"));
+
+    const sortedRows = rows.sort((a, b) => {
+        const aColText = a.querySelector(`td:nth-child(${column + 1})`).textContent.trim();
+        const bColText = b.querySelector(`td:nth-child(${column + 1})`).textContent.trim();
+
+        return aColText.localeCompare(bColText, undefined, { numeric: true }) * dirModifier;
+    });
+
+    while (tBody.firstChild) {
+        tBody.removeChild(tBody.firstChild);
+    }
+
+    tBody.append(...sortedRows);
+
+    table.querySelectorAll("th").forEach(th => th.classList.remove("th-sort-asc", "th-sort-desc"));
+    table.querySelector(`th:nth-child(${column + 1})`).classList.toggle("th-sort-asc", ascending);
+    table.querySelector(`th:nth-child(${column + 1})`).classList.toggle("th-sort-desc", !ascending);
+}
+
+document.querySelectorAll(".sortable-table th").forEach(headerCell => {
+    headerCell.addEventListener("click", () => {
+        const tableElement = headerCell.parentElement.parentElement.parentElement;
+        const headerIndex = Array.prototype.indexOf.call(headerCell.parentNode.children, headerCell);
+        const currentIsAscending = headerCell.classList.contains("th-sort-asc");
+
+        sortTable(tableElement, headerIndex, !currentIsAscending);
+    });
+});
+
+
 // Populate tables
 function populateTable(tableId, data, linkPrefix) {
   const table = document.getElementById(tableId);
